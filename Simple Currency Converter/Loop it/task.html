@@ -1,0 +1,73 @@
+<html><body><h5 id="description">Description</h5>
+<p>In the final stage, we will loop our program to make it run continuously until the exit command is prompted.</p>
+<p>First, ask the user what they want to do: <code class="java">What do you want to do?</code></p>
+<p>Give two choices to users: one is conversion, the other is the exit. Users need to input <code class="java">1</code> and <code class="java">2</code>, respectively: <code class="java">1-Convert currencies 2-Exit program</code></p>
+<p>In case of any wrong input, you need to ask again for the input and repeat the process.</p>
+<p>Print the following message when users choose to exit the program: <code class="java">Have a nice day!</code></p>
+<p>Print the following message when unknown input occurs: <code class="java">Unknown input</code></p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, your program should:</p>
+<ol>
+<li>Continuously ask for new currency input;</li>
+<li>Give two choices to users;</li>
+<li>Handle unknown inputs.</li>
+</ol>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<p><strong>Example 1: </strong><em>USD to JPY</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to do?
+1-Convert currencies 2-Exit program
+&gt; 1
+What do you want to convert?
+From: &gt; USD
+To: &gt; JPY
+Amount: &gt; 115
+Result: 115 USD equals 13052.5000 JPY
+What do you want to do?
+1-Convert currencies 2-Exit program</code></pre>
+<p><strong>Example 2: </strong><em>unknown currency</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to do?
+1-Convert currencies 2-Exit program
+&gt; 1
+What do you want to convert?
+From: &gt; TL
+Unknown currency
+What do you want to convert?
+From: </code></pre>
+<p><strong>Example 3: </strong><em>exiting the program</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to do?
+1-Convert currencies 2-Exit program
+&gt; 2
+Have a nice day!</code></pre>
+<p> <strong>Example 4: </strong><em>unknown input</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to do?
+1-Convert currencies 2-Exit program
+&gt; a
+Unknown input
+What do you want to do?
+1-Convert currencies 2-Exit program
+</code></pre></body></html>

@@ -1,0 +1,97 @@
+<html><body><h5 id="description">Description</h5>
+<p>In this stage, we will start converting a provided amount of USD to the list of currencies in the first stage.</p>
+<p>First, print a message to let users know what the program can do:</p>
+<pre><code class="language-no-highlight">I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD</code></pre>
+<p>Get input from users like in the example. Calculate and output the result that must take 4 decimal places.</p>
+<p>To simplify getting input from the console, we're using a JS library, check out the <a href="https://github.com/hyperskill/sync-input#usage" rel="noopener noreferrer nofollow" target="_blank">documentation</a> to see how it's used.</p>
+<p>Don’t forget that when getting the input for the desired currency, the program should be able to process lower and uppercase letters. Also, if an unknown input is provided by users, print the following message and stop the program: <code class="java">Unknown currency</code>.</p>
+<p>The value for the converted amount should not be less than <code class="java">1</code>. If it's less, output <code class="java">The amount cannot be less than 1</code>. If the amount is not a number, output <code class="java">The amount has to be a number</code>.</p>
+<p> </p>
+<p><button class="btn-sm btn-outline-secondary" onclick="getElementById('hint-1232').style.display='inline'">
+        Hint
+      </button>
+</p><div id="hint-1232" style="display:none;">You can use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes?retiredLocale=tr" rel="noopener noreferrer nofollow" target="_blank">array.includes()</a> for checking unknown input.</div>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, your program should:</p>
+<ul>
+<li>Output a new message about what it can do;</li>
+<li>Ask for the currency and <code class="java">amount</code> (see Examples);</li>
+<li>Calculate and output the correct result;</li>
+<li>Handle any uppercased or lowercased inputs;</li>
+<li>Handle unknown currency input;</li>
+<li>Handle an amount that is less than <code class="java">1</code>;</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<p><strong>Example 1: </strong><em>converting to JPY</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; JPY
+Amount: &gt; 1
+Result: 1 USD equals 113.5000 JPY</code></pre>
+<p><strong>Example 2: </strong><em>converting to EUR</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; EUR
+Amount: &gt; 18
+Result: 18 USD equals 16.0200 EUR</code></pre>
+<p><strong>Example 3: </strong><em>unknown currency</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; TL
+Unknown currency</code></pre>
+<p><strong>Example 4: </strong><em>wrong amount</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; USD
+Amount: &gt; -1
+The amount cannot be less than 1</code></pre>
+<p><strong>Example 5: </strong><em>wrong amount</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; USD
+Amount: &gt; a
+The amount has to be a number</code></pre>
+<p><strong>Example 6: </strong><em>lowercase handling</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD
+To: &gt; jpy
+Amount: &gt; 3
+Result: 3 USD equals 340.5000 JPY</code></pre></body></html>

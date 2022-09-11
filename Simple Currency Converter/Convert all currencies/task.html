@@ -1,0 +1,50 @@
+<html><body><h5 id="description">Description</h5>
+<p>In this stage, we need to adjust our program to start converting all currencies between themselves.</p>
+<p>First, remove the previous message: </p>
+<pre><code class="java">I can convert USD to these currencies: JPY, EUR, RUB, USD, GBP
+Type the currency you wish to convert: USD</code></pre>
+<p>Then, output the following message: <code class="java">What do you want to convert?</code> After this, users provide input that indicates a currency to convert from. Don't forget to handle all unknown and invalid inputs like in the previous stage.</p>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, your program should:</p>
+<ul>
+<li>Ask for the currencies (see Examples);</li>
+<li>Calculate and output the result;</li>
+<li>Handle any unknown and incorrect inputs.</li>
+</ul>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<p><strong>Example 1: </strong><em>EUR to GBP</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to convert?
+From: &gt; EUR
+To: &gt; GBP
+Amount: &gt; 115
+Result: 115 EUR equals 96.9101 GBP</code></pre>
+<p> <strong>Example 2: </strong><em>wrong input</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to convert?
+From: &gt; USD
+To: &gt; This is a currency, believe me!
+Unknown currency</code></pre>
+<p> <strong>Example 3: </strong><em>JPY to JPY</em></p>
+<pre><code class="language-no-highlight">Welcome to Currency Converter!
+1 USD equals 1 USD
+1 USD equals 113.5 JPY
+1 USD equals 0.89 EUR
+1 USD equals 74.36 RUB
+1 USD equals 0.75 GBP
+What do you want to convert?
+From: &gt; jpy
+To: &gt; jpy
+Amount: &gt; 3
+Result: 3 JPY equals 3.0000 JPY</code></pre></body></html>

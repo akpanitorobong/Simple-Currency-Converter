@@ -1,0 +1,7 @@
+type: framework
+content:
+- Welcome to Simple Currency Converter
+- Convert a currency
+- Convert all currencies
+- Loop it
+current_task: 3

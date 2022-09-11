@@ -1,0 +1,92 @@
+hyperskill_project:
+  id: 231
+  ide_files: https://stepik.org/media/attachments/lesson/652742/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: Sun, 11 Sep 2022 12:54:43 UTC
+stages:
+- id: 1157
+  step: 17897
+  is_completed: true
+- id: 1158
+  step: 17898
+  is_completed: true
+- id: 1159
+  step: 17899
+  is_completed: true
+- id: 1160
+  step: 17900
+  is_completed: true
+topics:
+  0:
+  - title: World Wide Web
+    theory_id: 6633
+  - title: HyperText Transfer Protocol
+    theory_id: 6569
+  - title: Comments
+    theory_id: 8170
+  - title: JavaScript Code Style
+    theory_id: 9916
+  - title: Naming variables
+    theory_id: 8364
+  - title: Web development
+    theory_id: 13931
+  - title: Introduction to JavaScript
+    theory_id: 8016
+  - title: Overview of the basic program
+    theory_id: 8154
+  - title: Multi-line programs
+    theory_id: 8162
+  - title: Variables
+    theory_id: 8186
+  - title: Strings and Numbers
+    theory_id: 8194
+  - title: Arithmetic operators
+    theory_id: 8372
+  - title: Functions
+    theory_id: 8388
+  - title: Boolean and Logical Operators
+    theory_id: 8471
+  - title: JSON
+    theory_id: 6854
+  - title: Introduction to Objects
+    theory_id: 8588
+  - title: Null and Undefined
+    theory_id: 8564
+  - title: Type Conversion
+    theory_id: 8380
+  - title: Comparison Operators
+    theory_id: 8580
+  - title: Conditional Operators
+    theory_id: 8889
+  - title: Introduction to String
+    theory_id: 17747
+  - title: Template literals
+    theory_id: 8731
+  1:
+  - title: setTimeout and setInterval
+    theory_id: 9680
+  - title: Anonymous Function
+    theory_id: 10865
+  - title: Arrow Functions
+    theory_id: 8455
+  - title: Introduction to Arrays
+    theory_id: 16141
+  - title: Array creation
+    theory_id: 16356
+  - title: Object methods and keyword "this"
+    theory_id: 8715
+  - title: ForEach method
+    theory_id: 10133
+  - title: Increment and Decrement
+    theory_id: 9102
+  - title: For Loops
+    theory_id: 9119
+  2:
+  - title: Switch
+    theory_id: 10689
+  3:
+  - title: While Loops
+    theory_id: 9128
+  - title: Break and Continue
+    theory_id: 9374
